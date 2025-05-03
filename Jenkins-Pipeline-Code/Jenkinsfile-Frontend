@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', git credentialsId: 'git-creds', url: 'https://github.com/Karthik351/Mern-Stack---Application-Code.git'
+                git branch: 'main', credentialsId: 'git-creds', url: 'https://github.com/Karthik351/Mern-Stack---Application-Code.git'
             }
         }
         stage('Sonarqube Analysis') {
