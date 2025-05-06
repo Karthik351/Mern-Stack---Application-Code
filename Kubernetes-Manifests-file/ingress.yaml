@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: jaydevops.xyz
+    - host: jaydevops.xy
       http:
         paths:
           - path: /api
